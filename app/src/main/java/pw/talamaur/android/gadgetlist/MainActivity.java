@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         hideActionBar();
 
         ImageView imageViewLogo = findViewById(R.id.imageViewLogo);
-        Picasso.get().load(R.drawable.logo).fit().into(imageViewLogo);
+        Picasso.get().load(R.drawable.logo).fit().centerInside().into(imageViewLogo);
     }
 
     private void hideActionBar() {
