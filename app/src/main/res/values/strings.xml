@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Gadget List</string>
     <string name="logo_description">Gadget list logo</string>
+    <string name="cpus">CPUs</string>
+    <string name="laptops">Laptops</string>
+    <string name="smartphones">Smartphones</string>
+
+    <string-array name="gadget_categories">
+        <item>@string/cpus</item>
+        <item>@string/laptops</item>
+        <item>@string/smartphones</item>
+    </string-array>
 </resources>
