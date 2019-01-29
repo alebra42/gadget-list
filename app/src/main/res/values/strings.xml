@@ -4,6 +4,7 @@
     <string name="cpus">CPUs</string>
     <string name="laptops">Laptops</string>
     <string name="smartphones">Smartphones</string>
+    <string name="unsupported_category">Selected category is not supported yet</string>
 
     <string-array name="gadget_categories">
         <item>@string/cpus</item>
