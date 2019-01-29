@@ -3,6 +3,9 @@ package pw.talamaur.android.gadgetlist;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         hideActionBar();
+
+        ImageView imageViewLogo = findViewById(R.id.imageViewLogo);
+        Picasso.get().load(R.drawable.logo).fit().into(imageViewLogo);
     }
 
     private void hideActionBar() {
